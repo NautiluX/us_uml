@@ -1,0 +1,14 @@
+...
+    <layout>
+      <configItem>
+        <name>us_uml</name>
+        <shortDescription>us_uml</shortDescription>
+        <description>US with umlauts via AltGr</description>
+        <languageList>
+          <iso639Id>eng</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList/>
+    </layout>
+  </layoutList>
+...
