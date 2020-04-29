@@ -4,7 +4,7 @@
 // For more about the software, see http://code.google.com/p/keyboardlayouteditor
 //
 
-xkb_symbols "uml"
+xkb_symbols "euro"
 {
 	name[Group1] = "US with umlauts";
 	include "us(basic)"
