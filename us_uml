@@ -4,10 +4,10 @@
 // For more about the software, see http://code.google.com/p/keyboardlayouteditor
 //
 
-xkb_symbols "euro"
+xkb_symbols "uml"
 {
 	name[Group1] = "US with umlauts";
-	include "us(basic)"
+	include "us(euro)"
 	key <AC01> { [       NoSymbol,       NoSymbol,     adiaeresis,     Adiaeresis ] }; //   ä Ä 
 	key <AC02> { [       NoSymbol,       NoSymbol,         ssharp                 ] }; //   ß 
 	key <AD03> { [       NoSymbol,       NoSymbol,       EuroSign                 ] }; //   € 
