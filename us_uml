@@ -8,11 +8,13 @@ xkb_symbols "uml"
 {
 	name[Group1] = "US with umlauts";
 	include "us(euro)"
-	key <AC01> { [       NoSymbol,       NoSymbol,     adiaeresis,     Adiaeresis ] }; //   ä Ä 
-	key <AC02> { [       NoSymbol,       NoSymbol,         ssharp                 ] }; //   ß 
+	key <AC01> { [       NoSymbol,       NoSymbol,       adiaeresis,     Adiaeresis ] }; //   ä Ä 
+	key <AC02> { [       NoSymbol,       NoSymbol,       ssharp                 ] }; //   ß 
 	key <AD03> { [       NoSymbol,       NoSymbol,       EuroSign                 ] }; //   € 
-	key <AD07> { [       NoSymbol,       NoSymbol,     udiaeresis,     Udiaeresis ] }; //   ü  
-	key <AD09> { [       NoSymbol,       NoSymbol,     odiaeresis,     Odiaeresis ] }; //   ö Ö 
+	key <AD07> { [       NoSymbol,       NoSymbol,       udiaeresis,     Udiaeresis ] }; //   ü  
+	key <AD09> { [       NoSymbol,       NoSymbol,       odiaeresis,     Odiaeresis ] }; //   ö Ö 
 	key <AE02> { [       NoSymbol,       NoSymbol,       NoSymbol,       EuroSign ] }; //    € 
+	key <AE02> { [       NoSymbol,       NoSymbol,       NoSymbol,       EuroSign ] }; //    € 
+  key <AE08> { [	     NoSymbol,       NoSymbol,       NoSymbol,       degree	]	};
 };
 
