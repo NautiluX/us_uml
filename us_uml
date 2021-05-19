@@ -1,20 +1,18 @@
-/////////////////////////////////////////////////////////////////////////////////
-//
-// Generated keyboard layout file with the Keyboard Layout Editor.
-// For more about the software, see http://code.google.com/p/keyboardlayouteditor
-//
-
-xkb_symbols "uml"
+xkb_symbols "us_uml"
 {
 	name[Group1] = "US with umlauts";
 	include "us(euro)"
-	key <AC01> { [       NoSymbol,       NoSymbol,       adiaeresis,     Adiaeresis ] }; //   ä Ä 
-	key <AC02> { [       NoSymbol,       NoSymbol,       ssharp                 ] }; //   ß 
-	key <AD03> { [       NoSymbol,       NoSymbol,       EuroSign                 ] }; //   € 
-	key <AD07> { [       NoSymbol,       NoSymbol,       udiaeresis,     Udiaeresis ] }; //   ü  
-	key <AD09> { [       NoSymbol,       NoSymbol,       odiaeresis,     Odiaeresis ] }; //   ö Ö 
-	key <AE02> { [       NoSymbol,       NoSymbol,       NoSymbol,       EuroSign ] }; //    € 
-	key <AE02> { [       NoSymbol,       NoSymbol,       NoSymbol,       EuroSign ] }; //    € 
-  key <AE08> { [	     NoSymbol,       NoSymbol,       NoSymbol,       degree	]	};
+	key <AC01> { [ NoSymbol, NoSymbol, adiaeresis, Adiaeresis ] }; // ä Ä
+	key <AC02> { [ NoSymbol, NoSymbol, ssharp                 ] }; // ß
+	key <AD03> { [ NoSymbol, NoSymbol, EuroSign               ] }; // €
+	key <AD07> { [ NoSymbol, NoSymbol, udiaeresis, Udiaeresis ] }; // ü
+	key <AD09> { [ NoSymbol, NoSymbol, odiaeresis, Odiaeresis ] }; // ö Ö
+	key <AE02> { [ NoSymbol, NoSymbol, NoSymbol,   EuroSign   ] }; // €
+	key <AE02> { [ NoSymbol, NoSymbol, NoSymbol,   EuroSign   ] }; // €
+	key <AE08> { [ NoSymbol, NoSymbol, NoSymbol,   degree	    ] }; // °
+	key <AC06> { [ h,        H,        Left                   ] };
+	key <AC07> { [ j,        J,        Down                   ] };
+	key <AC08> { [ k,        K,        Up                     ] };
+	key <AC09> { [ l,        L,        Right                  ] };
+	key <CAPS> { [ ISO_Level3_Shift ] };
 };
-
